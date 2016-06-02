@@ -1,0 +1,46 @@
+/*HTML PORTFOLIO*/
+.bg_pleca{
+	margin-top: 5em;
+	width: 100%;
+	height: 9rem;
+	background: $orange;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	margin-bottom: 4rem;
+}
+
+.nav-pills{
+		margin-top:1.3rem; 
+		margin-bottom: 8rem;
+		li{
+		font-family: "bebas___-webfont";
+		}
+		>li{	
+		>a{
+		color:$gray;
+		&:hover,
+		&:focus{
+		color:$white;
+		background-color:$orange;
+		border-radius: 0.5rem;
+		padding-bottom: -0.5rem;}
+			}
+		}	
+	}
+
+ .active>.nav-2{
+  background-color: $orange!important;
+}
+
+.movie{
+	border:1px solid $gray;
+	padding: 0.2rem;
+}
+
+.border-movie{
+	border:1px solid $gray;
+	padding-left: 2rem;
+	padding-bottom: 3rem;
+	margin-top:0.5rem;
+	margin-bottom: 3rem;
+}

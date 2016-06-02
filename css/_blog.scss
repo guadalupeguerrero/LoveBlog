@@ -1,0 +1,59 @@
+
+   .carousel-control {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    opacity: 0;
+    font-size: 20px;
+    color: transparent;
+    text-align: center;
+    text-shadow: 0 6px 2px rgba(0, 0, 0, 0);
+}
+
+.carousel-control:hover, .carousel-control:focus {
+      color: transparent;
+      opacity: none;
+  }
+     
+
+.pleca-espacios{
+	margin-top: 7.5rem;
+	margin-bottom: 3rem;
+}
+
+blockquote.resaltado {
+margin:10px;
+padding-left: 70px;
+padding-right: 10px;
+border:none;
+background-color: #f9f9f9;
+}
+blockquote.resaltado p {
+padding:20px 50px 30px 0;
+border:none;
+}
+
+.pagination a{
+  color: $white;
+  background: $orange !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus{
+  color: #ffffff;
+  background-color: #213846;
+}
+
+.mg-top-blog{
+  margin-top: -257%;
+}
+
+@media screen and (max-width: 990px) {
+    .mg-top-blog {
+        margin-top: 7%;
+    }
+}
+

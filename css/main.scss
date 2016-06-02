@@ -1,0 +1,19 @@
+	html {
+  font-size: 10px;
+  }
+
+  @font-face{
+  	font-family: "bebas___-webfont";
+  	src: url("../font/bebas___-webfont.ttf");
+  }
+  
+	@import "_variable";
+  @import "_estilos";
+	@import "_nav";
+	@import "_sectionprincipal";
+  @import "_sectionimages";
+  @import "_footer";
+  @import "_portfolio";
+  @import "_about";
+  @import "_contact";
+  @import "_blog";

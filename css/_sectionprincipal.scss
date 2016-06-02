@@ -1,0 +1,46 @@
+/*Seccion principal*/
+
+
+@mixin rectangulo($height){
+    height: $height;
+    background: $orange_2;
+	margin-top: 2rem;
+}
+
+.recuadro {
+@include rectangulo(14rem);
+}
+
+.recuadro_2 {
+@include rectangulo(63.9rem);
+}
+
+.img-principal{
+	margin-top: 5em;
+	width: 100%
+}
+
+ .right {
+    left: auto;
+    right: -8.3%!important;
+
+}
+
+.btn-common {
+	background: $orange;
+	width: 6rem;
+	height: 3.5rem;
+	padding: 0.7rem 1.3rem;
+
+	a{
+    font-size: 1.5rem;
+    color: $white;
+    font-weight: 300;
+	font-family: "bebas___-webfont";
+  &:hover, 
+  &:focus{
+    color: $white;
+    text-decoration: none;
+	}
+  }
+}    

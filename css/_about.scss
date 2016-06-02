@@ -1,0 +1,44 @@
+.img-autor {
+  border: 1px solid $gray;
+  padding: 0.2rem;
+  margin-bottom: 3rem; }
+
+  blockquote {
+  border-left: 1rem solid $orange;
+  margin: 2rem 2.5rem;}
+
+
+.pleca-little {
+  height: 3rem;
+  background: url(../images/heading-bg.png) repeat-x 0 0;
+  width: 45%;
+  margin-left: 12rem;
+  margin-top: -2rem;
+}
+
+.mg-top-subtitle{
+	margin-top: -118%;
+}
+
+
+.gallery{
+	background: $orange_2;
+	width: 5.2rem;
+	height: 5.2rem;
+	border: 1px solid $orange;
+}
+
+@media screen and (max-width: 990px) {
+    .mg-top-subtitle {
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gallery {
+       width: 7rem;
+	height: 7rem;
+    }
+}
+
+

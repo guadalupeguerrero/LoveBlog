@@ -1,0 +1,38 @@
+.form-control{
+	border: 1px solid $orange;
+	margin-bottom: 2rem;
+	height: 5rem;
+	border-radius: 0;
+
+}
+
+.ancho{
+	width: 30rem;
+}
+
+.form-control::-webkit-input-placeholder {
+ color: $orange; }
+.form-control:-moz-placeholder {
+ color: $orange; }
+.form-control::-moz-placeholder {
+ color: $orange; }
+.form-control:-ms-input-placeholder {
+ color: $orange; }
+
+.btn-lg{
+	width: 100%!important;
+	color: $white;
+	background: $orange;
+	border-radius: 0;
+	margin-bottom: 1.5rem;
+}
+
+.mg-top-contact{
+  margin-top: -207%;
+}
+
+@media screen and (max-width: 990px) {
+    .mg-top-contact {
+        margin-top: 7%;
+    }
+}

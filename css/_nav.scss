@@ -1,0 +1,43 @@
+/* Logo style*/
+.logo{
+  width: 17rem;
+  margin-top: 1.8rem;
+  margin-left: 1.5rem;
+}
+
+/*navbar style*/
+.navbar{
+	font-size: 1.8rem;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	font-weight: $bold;
+}
+.navbar-inverse {
+	background: $white;
+	border-color: transparent;
+		.navbar-collapse {
+		overflow: hidden;
+		.navbar-nav {
+			li{
+			margin-right:-2rem;
+			margin-left: 1.3rem;
+			margin-top:1.2rem; 
+			font-family: "bebas___-webfont";
+			}
+			>.active{
+				>a{
+				color: $orange;
+				background: none;
+				&:hover
+				&:focus{
+				color: $orange!important;
+  				background:transparentimportant;	
+				}
+				}
+			}	
+		}
+	}
+}
+
+
+

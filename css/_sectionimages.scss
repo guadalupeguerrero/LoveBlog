@@ -1,0 +1,16 @@
+/*Seccion imagenes index*/
+.pleca{
+	height: 3rem;
+	background: url(../images/heading-bg.png) repeat-x 0 0;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -3rem;
+}
+
+.border{
+	border-right: 1px solid $gray;
+	border-bottom: 1px solid $gray;
+	border-left: 1px solid $gray;
+	padding-left: 2rem;
+	margin-bottom: 4rem;
+}
